@@ -1,0 +1,29 @@
+:root {
+    --dark: #808080;
+    --bright-text: #7fffd4;
+    --white: #fff;
+}
+
+* {
+    background-color: var(--dark);
+    color: var(--bright-text);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-flex;
+    flex-direction: column;
+    align-self: center;
+    flex: 0 0 100%;
+}
+
+Header p {
+    color: var(--white);
+    flex: 0 0 100%;
+    align-self: center;
+}
