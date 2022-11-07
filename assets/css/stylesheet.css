@@ -30,6 +30,7 @@ Header p {
 
 section {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -39,7 +40,7 @@ article {
     border: 5px solid #fff;
 }
 
-#header {
+.header {
     border: 5px solid var(--bright-text);
     border-radius: 10%;
     text-align: left;
@@ -47,8 +48,12 @@ article {
     margin: 0 20px 0 0;
 }
 
-.card {
 
+pre {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,156,128,1) 26%, rgba(0,212,255,1) 100%);
+    color: var(--white);
+    font-family: monospace;
 }
 
 .notes {
