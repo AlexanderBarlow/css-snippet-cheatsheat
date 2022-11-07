@@ -27,3 +27,38 @@ Header p {
     flex: 0 0 100%;
     align-self: center;
 }
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 0 0 32%;
+    border: 5px solid #fff;
+}
+
+.card {
+
+}
+
+.notes {
+    background-color: var(--bright-text);
+    color: var(--white);
+}
+
+@media screen and (max-width: 992px){
+   article {
+    flex: 0 0 50%;
+   }
+}
+
+
+@media screen and (max-width: 768px){
+    article{
+        flex: 0 0 100%;
+    }
+
+
+}
