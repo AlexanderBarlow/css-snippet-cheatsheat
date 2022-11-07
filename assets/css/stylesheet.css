@@ -39,6 +39,14 @@ article {
     border: 5px solid #fff;
 }
 
+#header {
+    border: 5px solid var(--bright-text);
+    border-radius: 10%;
+    text-align: left;
+    padding: 15px;
+    margin: 0 20px 0 0;
+}
+
 .card {
 
 }
